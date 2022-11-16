@@ -41,3 +41,7 @@
   <%= f.input :content%>
   <%= f.submit class: 'btn btn-primary' %>
 <% end %>
+
+<%= link_to "New Review", new_restaurant_review_path(@restaurant) %>
+<br>
+<%= link_to "See all restaurants", restaurants_path %>
